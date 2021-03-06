@@ -1,0 +1,120 @@
+/* h1{
+    text-align: center;
+    
+}
+.h_image{
+    background-image: url('assets/backgrounds/h_img.jpg');
+    width: 100%;
+    margin: auto;
+    text-align: center;
+   
+} */
+
+  
+body {
+    background-color: white;
+  }
+  
+  h1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+  }
+  .h_image {
+    background-image: url('./backgrounds/h_img.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+  .h_logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .mouse_image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .about_us {
+    text-align: center;
+    color: black;
+    font-size: small;
+    font-family: 'Yantramanav', sans-serif;
+  }
+  .services {
+    background-image: url('./backgrounds/s_image.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: small;
+    font-family: 'Yantramanav', sans-serif;
+  }
+  .hide{
+    display:none;
+  }
+  figcaption{
+    text-align: center;
+  }
+  
+  .Hover {
+    opacity:0;
+    background-color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top:25%;
+    bottom:25%;
+    left:25%;
+    right:25%; 
+  }
+  .portfolio_images {
+    height: 280px;
+    max-width: 280px;
+    padding:2px;
+  }
+  .row{
+    padding:2%;
+  }
+  .Contact_us {
+    background-image: url('./backgrounds/c_image.jpg');
+    background-size:cover;
+    display: cover;
+    padding: 10%;
+  }
+  form #contact{
+    background-color: white;
+  }
+  .col{
+    float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+  }
+  ::placeholder{
+    color: white;
+  }
+  
+  input[type=text] {
+    background:transparent;
+    color: white;
+    border-color: white;
+  }
+  textarea[type=text] {
+    width: 100%;
+    background:transparent;
+    color: white;
+    border-color: white;
+
+  }
+  
+  .submit{
+    position:absolute;
+    padding-left: 25%;
+  }
+  
+  .Footer {
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-size: x-small;
+    font-family: 'Amaranth', sans-serif;
+  }
